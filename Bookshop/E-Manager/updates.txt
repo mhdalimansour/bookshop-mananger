@@ -1,0 +1,12 @@
+Admin: mhmdali
+Customer Phone #: 123
+Books sold on: Thu Sep 21 00:59:59 EEST 2023
+9781234567890 x 10
+Total = 100.0
+
+Admin: mhmdali
+Customer Phone #: 123
+Books sold on: Thu Sep 21 01:00:08 EEST 2023
+9781234567890 x 2
+Total = 120.0
+

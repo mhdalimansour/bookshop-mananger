@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CreateCustomerController">
+   <children>
+      <TextField fx:id="firstNameField" layoutX="200.0" layoutY="82.0" prefHeight="26.0" prefWidth="198.0" promptText="First Name" />
+      <TextField fx:id="lastNameField" layoutX="200.0" layoutY="126.0" prefHeight="26.0" prefWidth="198.0" promptText="Last Name" />
+      <TextField fx:id="emailField" layoutX="201.0" layoutY="167.0" prefHeight="26.0" prefWidth="198.0" promptText="Email" />
+      <TextField fx:id="phoneField" layoutX="200.0" layoutY="211.0" prefHeight="26.0" prefWidth="198.0" promptText="Phone Number" />
+      <Button layoutX="247.0" layoutY="266.0" mnemonicParsing="false" onAction="#create" text="Create Customer" />
+      <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

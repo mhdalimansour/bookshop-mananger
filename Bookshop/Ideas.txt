@@ -1,0 +1,2 @@
+Use Adapter design pattern to change files from xlsx to xls to jxl library work;
+Use Observer design pattern to notify admins when sales happen;

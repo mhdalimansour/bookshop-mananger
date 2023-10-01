@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FindBookController">
+  <children>
+    <TableView fx:id="bookTableView" layoutX="28.0" layoutY="92.0" prefHeight="358.0" prefWidth="738.0">
+      <columns>
+        <TableColumn fx:id="idTableColumn" prefWidth="51.19997978210449" text="ID" />
+        <TableColumn fx:id="isbnTableColumn" prefWidth="117.60001373291016" text="ISBN" />
+        <TableColumn fx:id="titleTableColumn" prefWidth="145.5999755859375" text="Title" />
+        <TableColumn fx:id="authorTableColumn" prefWidth="124.79998779296875" text="Author" />
+        <TableColumn fx:id="genreTableColumn" prefWidth="99.19998168945312" text="Genre" />
+        <TableColumn fx:id="qtyTableColumn" prefWidth="104.8000366210938" text="Quantity" />
+            <TableColumn fx:id="priceTableColumn" prefWidth="92.80002441406248" text="Price" />
+      </columns>
+    </TableView>
+    <TextField fx:id="searchBar" layoutX="27.0" layoutY="44.0" prefHeight="26.0" prefWidth="738.0" promptText="Keywords..." />
+      <Button layoutX="14.0" layoutY="485.0" mnemonicParsing="false" onAction="#back" text="Back" />
+  </children>
+</AnchorPane>

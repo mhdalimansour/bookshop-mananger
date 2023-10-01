@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainEmployeePage">
+   <children>
+      <Accordion layoutX="181.0" layoutY="177.0" />
+      <Button alignment="CENTER" layoutX="105.0" layoutY="86.0" mnemonicParsing="false" onAction="#sell" prefHeight="26.0" prefWidth="166.0" text="Sell a Book" />
+      <Button alignment="CENTER" layoutX="339.0" layoutY="86.0" mnemonicParsing="false" onAction="#findbook" prefHeight="26.0" prefWidth="166.0" text="Find a Book" />
+      <Button alignment="CENTER" layoutX="105.0" layoutY="141.0" mnemonicParsing="false" onAction="#addbook" prefHeight="26.0" prefWidth="166.0" text="Add a Book" />
+      <Button alignment="CENTER" layoutX="339.0" layoutY="141.0" mnemonicParsing="false" onAction="#createbook" prefHeight="26.0" prefWidth="166.0" text="Create New Book" />
+      <Button alignment="CENTER" layoutX="105.0" layoutY="200.0" mnemonicParsing="false" onAction="#removebook" prefHeight="26.0" prefWidth="166.0" text="Remove a Book" />
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button alignment="CENTER" layoutX="339.0" layoutY="200.0" mnemonicParsing="false" onAction="#createcustomer" prefHeight="26.0" prefWidth="166.0" text="Create New Customer" />
+   </children>
+</AnchorPane>
